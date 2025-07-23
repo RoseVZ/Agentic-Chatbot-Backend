@@ -1,6 +1,6 @@
 #  MeAgent — Personal AI Agentic Chatbot
 
-A lightweight, no-framework Agentic AI chatbot that acts as a summarizer and representative of **Priyanka Rose Varghese**. It uses OpenAI's tool calling to:
+A lightweight, no-framework Agentic AI chatbot that acts as a summarizer and representative of **Priyanka Rose Varghese** (inspired from The Complete Agentic AI Engineering Course (2025) by Ed Donner). It uses OpenAI's tool calling to:
 - Chat naturally based on your resume and LinkedIn content.
 - Record user interest (email, name).
 - Record unanswered questions via push notifications.
