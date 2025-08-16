@@ -23,6 +23,10 @@ class ChatRequest(BaseModel):
     message: str
     history: List[Message] = []
 
+@app.get("/ping")
+def ping():
+    return {"status": "ok"}
+
 @app.post("/chat")
 async def chat_endpoint(request: ChatRequest):
     # Convert history to the format your Me.chat() expects
