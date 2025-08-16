@@ -2,8 +2,8 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from typing import List
 from fastapi.middleware.cors import CORSMiddleware
-# Import your Me class from the file where it's defined
-from model import Me  # Change 'me_chatbot' to your actual Python filename without .py
+
+from model import Me  
 
 app = FastAPI()
 app.add_middleware(
